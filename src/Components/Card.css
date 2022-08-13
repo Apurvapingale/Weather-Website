@@ -1,0 +1,55 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+.card {
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  background: hsla(0, 0%, 98%, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.title {
+  display: block;
+  text-align: left;
+}
+.card-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-head-place {
+  font-family: "Fira Sans", sans-serif;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 5px;
+}
+.card-body-temperature {
+  font-size: 4rem;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.card-body-visibility {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+}
+.temp,
+.lat-lon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.lon,
+.max,
+.min,
+.lat {
+  display: flex;
+}
